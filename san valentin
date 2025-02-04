@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín 💖</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6f2;
+            color: #ff4081;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: #ff4081;
+            color: white;
+        }
+        .no {
+            background-color: #cccccc;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cecilia, ¿Quieres ser mi San Valentín? 💖</h1>
+        <img src="https://cdn.pixabay.com/photo/2017/02/14/10/01/cats-2068462_1280.jpg" alt="Gatos románticos">
+        <div class="buttons">
+            <button class="yes" onclick="alert('¡Sabía que dirías que sí! 💕')">Sí, quiero 💖</button>
+            <button class="no" onclick="alert('Oh no... 😢 Pero igual te quiero')">No, no quiero</button>
+        </div>
+    </div>
+</body>
+</html>
